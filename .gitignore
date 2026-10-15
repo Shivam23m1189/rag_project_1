@@ -1,0 +1,22 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Large model downloads & Hugging Face caches (if downloaded locally)
+.cache/
+hf_cache/
+
+# Environment variables & secrets (important for later API keys)
+.env
+*.env
